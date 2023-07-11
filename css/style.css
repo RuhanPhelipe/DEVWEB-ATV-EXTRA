@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-section .container,
+.inputs {
+    background-color: blue;
+}
+
+.cards-section .container h3 {
+    color: white;
+}
+
+.selecionar {
+    align-self: flex-end;
+}
+
+/*.btn-primary {
+    color: white;
+}*/
+
+.campo-obrigatrio {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+
+    font-size: 1rem;
+}
+
+.campo-obrigatrio small{
+    color: white;
+}
